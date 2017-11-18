@@ -1,1 +1,28 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
+
+/* Header */
+.header-logo { width: 200px; }
+.reserve-table { font-size: 18px; }
+.image-slider .slides { display: flex; height: 100vh; bottom: 50px; } /* Bump up the logo and reserve button */
+
+/* Footer */
+footer { padding: 40px 0; }
+
+/* Utiltiies */
+.p-b-40 { padding-bottom: 40px; }
+
+/* Social Icons */
+#header-social i { font-size: 20px; }
+
+/* Media Queries */
+@media (max-width: 767px) {
+  .image-slider .slides { bottom: 0 }
+  #header-social li { margin: 0 10px; }
+  a.reserve-table { margin: 0 !important; }
+  .plum-tucker-hashtag { font-size: 15px; }
+  .button-tabs .tabs li { display: block; width: 100%; }
+  .tab-content img { margin-right: 20px; }
+}
+@media (max-width: 400px) {
+  .tab-content img { width: 100%; }
+}
