@@ -10,9 +10,13 @@ footer { padding: 40px 0; }
 
 /* Utiltiies */
 .p-b-40 { padding-bottom: 40px; }
+.m-t-20 { margin-top: 20px; }
 
 /* Social Icons */
-#header-social i { font-size: 20px; }
+#header-social i { font-size: 24px; margin: 0 10px; }
+#header-social i:hover { color: #282a38; transition: .3s ease; font-weight: bold; }
+footer .social-list { display: flex; justify-content: center; align-content: center; }
+footer .social-list li i:hover { color: #FFF; }
 
 /* Media Queries */
 @media (max-width: 767px) {

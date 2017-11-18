@@ -27,11 +27,16 @@
 		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
 		<!-- Google Fonts -->
         <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
-    </head>
+		<!-- Begin MailChimp Signup Form -->
+		<style>
+			#mc_embed_signup{background:transparent; clear:left; font:14px Helvetica,Arial,sans-serif; }
+			#mce-EMAIL{padding:15px;}
+			#mc_embed_signup div.mce_inline_error{position: absolute;top: 50px;left: 15px;}
+		</style>
+	</head>
     <body>
 				
 		<div class="nav-container">
-
 		    <nav>
 		        <div class="nav-bar text-center">
 		            <div class="col-md-2 col-md-push-5 col-sm-12 text-center">
@@ -61,7 +66,6 @@
 		            <i class="ti-menu"></i>
 		        </div>
 		    </nav>
-		
 		</div>
 		
 		<div class="main-container">
@@ -70,7 +74,7 @@
 		        <ul class="slides">
 		            <li class="overlay image-bg">
 		                <div class="background-image-holder">
-		                    <img alt="image" class="background-image" src="img/project-single-4.jpg">
+		                    <img alt="image" class="background-image" src="img/plum-tucker-inside.jpg">
 		                </div>
 		                <div class="container v-align-transform">
 		                    <div class="row">
@@ -81,20 +85,26 @@
 		                </div>
 		                
 		                <div class="align-bottom text-center">
+							<h1 style="display: none;">Plum Tucker</h1>
 		                    <a class="btn btn-white mb32 reserve-table" href="#booking-section">Reserve A Table</a>
 		                    <ul id="header-social" class="list-inline social-list mb24">
 		                        <li>
-		                            <a href="#">
+		                            <a href="https://www.facebook.com/plumtucker">
 		                                <i class="ti-facebook"></i>
 		                            </a>
 		                        </li>
 		                        <li>
-		                            <a href="#">
+		                            <a href="https://www.instagram.com/plumtuckercafe">
 		                                <i class="ti-instagram"></i>
 		                            </a>
 								</li>
 								<li>
-									<a href="#">
+									<a href="tel:0733690610">
+										<i class="ti-mobile"></i>
+									</a>
+								</li>
+								<li>
+									<a href="mailto:info@plumtucker.com.au">
 										<i class="ti-email"></i>
 									</a>
 								</li>
@@ -102,7 +112,8 @@
 		                </div>
 		            </li>
 		        </ul>
-		    </section><section>
+			</section>
+			<section>
 		        <div id="menu" class="container">
 		            <div class="row">
 		                <div class="col-md-6 col-md-push-6 pt80 pt-xs-0">
@@ -234,17 +245,29 @@
 			</section>
 			<section id="events">
 				<div class="container">
-					<div class="row mb64 mb-xs-24">
+					<div class="row mb-xs-24">
 						<div class="col-sm-12 text-center">
-							<h3>What's On At Plum</h3>
+							<h3>EVENTS &amp; FUNCTIONS</h3>
 							<p class="lead">
-								Prepare for a full day of discussion from some of the web's best and brightest.
+								Book your next private event, function or work meeting at Plum Tucker Cafe.
+							</p>
+							<p class="lead">
+								Here at Plum Tucker we have the perfect space for entertaining! With enough room to comfortably host between 30 – 50 people our space provides a quiet, cosy and well lit environment perfect for any occasion both day and night. 
+								The tables can be arranged to your desire, making it ideal for meetings, presentations, large family get-togethers, art shows, pop up stores and photo shoots!
+							</p>
+							<p class="lead">
+								<strong>Be sure to ask us about our specialty grazing tables tailor-made just for you!</strong>
+							</p>
+							<p class="lead">
+								If you’re looking to book a larger party or event for the afternoon or evening then you’re more than welcome to reserve the entire cafe! 
+								The downstairs courtyard area can host between 50 – 70 people and is equipped with outdoor heaters, keeping it nice and cosy all year round.
 							</p>
 						</div>
 					</div>
 					
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
+							<h3 class="text-center m-t-20">Upcoming Events</h3>
 							<div class="tabbed-content button-tabs">
 								<ul class="tabs thirds mb64 mb-xs-24">
 									<li class="active">
@@ -358,8 +381,10 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4 col-md-offset-1 text-right text-left-xs col-sm-5">
-							<h1 class="uppercase mb24 bold italic">Fitness<br>For Life</h1>
-							<h5 class="uppercase italic fade-1-4">“My passion is motivating<br> people to get results”</h5>
+							<h1 class="uppercase mb24 bold italic">PLUM<br>TUCKER</h1>
+							<h5 class="uppercase italic fade-1-4">“Our passion is food <br> and local produce."<br>
+							<small>Kate & Matt</small>
+							</h5>
 							<hr class="visible-xs">
 						</div>
 						<div class="col-md-5 col-sm-7">
@@ -384,8 +409,11 @@
 		            <div class="row">
 		                <div class="col-sm-6">
 		                    <div class="feature bordered">
+
 		                        <h1 class="large uppercase mb64 mb-xs-24">Book A Table</h1>
-		                        <form class="form-email" data-success="Thanks! Your booking has been registered with us. " data-error="Woops! Please fill all fields correctly.">
+								<form class="form-email" action="https://formspree.io/jack.edward.lyons@gmail.com" method="POST" 
+									  
+								>
 		                            <input type="text" class="validate-required" name="name" placeholder="Name for booking">
 		                            <input type="text" class="validate-required" name="phone" placeholder="Phone Number">
 		                            <div class="select-option col-md-6 p0">
@@ -421,24 +449,44 @@
 		                            
 		                            <input type="text" class="validate-required" name="date" placeholder="Date (DD/MM/YYYY)">
 		                            <button type="submit">Reserve Table</button>
-		                        </form>
+								</form>
+								
 		                    </div>
 		                </div>
 		                <div class="col-sm-6">
 		                    <div class="map-holder pt160 pb160 mt80 mt-xs-0 mb24">
-		                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3149.4086040735224!2d144.976411!3d-37.87412599999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad66889faebddf1%3A0xcc68084b44a30620!2sRiva+St+Kilda!5e0!3m2!1sen!2sau!4v1427779902899" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3540.5357280468456!2d153.00197781462714!3d-27.45257622254646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b915751e9f7f5dd%3A0xc6d3dbf8889697c5!2sPlum+Tucker!5e0!3m2!1sen!2sau!4v1510957102612"></iframe>
+									<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14162.14229870604!2d153.0041665!3d-27.452581!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc6d3dbf8889697c5!2sPlum+Tucker!5e0!3m2!1sen!2sau!4v1510989585742" allowfullscreen></iframe>
 		                    </div>
 		                    <div class="feature bordered">
 		                        <h4 class="uppercase">ASK US ABOUT OUR CAKES, CATERING &amp; FUNCTIONS AT PLUM TUCKER!</h4>
-		                        <p>
-		                            428 Marine Parade
-		                            <br> Elwood VIC 3184
-		                        </p>
-		                        <p>
-		                            <strong>P:</strong> +614837483
-		                            <br>
-		                            <strong>E:</strong> eat@foundry.net
-		                        </p>
+								<div class="row">
+									<div class="col-xs-6">
+										<p>
+											<strong>Location</strong> <br>
+											1/5 Enoggera Terrace, <br>
+											Red Hill QLD 4059
+										</p>
+										<p>
+											<strong>P:</strong> 
+											<a href="tel:0733690610">(07) 3369 0610</a>
+											<br>
+											<strong>E:</strong> 
+											<a href="mailto:info@plumtuckercafe.com.au">info@plumtuckercafe.com.au</a>
+										</p>
+									</div>
+									<div class="col-xs-6">
+										<p>
+											<strong>Opening Hours</strong> <br>
+											<strong>Saturday</strong>:	6am–2pm <br>
+											<strong>Sunday</strong>:	6am–2pm <br>
+											<strong>Monday</strong>:	6am–2pm <br>
+											<strong>Tuesday</strong>:	6am–2pm <br>
+											<strong>Wednesday</strong>:	6am–2pm <br>
+											<strong>Thursday</strong>:	6am–2pm <br>
+											<strong>Friday</strong>:	6am–2pm
+										</p>
+									</div>
+								</div>
 		                    </div>
 		                </div>
 		            </div>
@@ -455,12 +503,25 @@
 					
 		            <div class="row mb40 mb-xs-24">
 		                <div class="col-sm-6 col-sm-offset-3">
-		                    <form class="form-newsletter halves" data-success="Thanks for your registration, we will be in touch shortly." data-error="Please fill all fields correctly.">
-		                        <input type="text" name="email" class="mb0 transparent validate-email validate-required signup-email-field" placeholder="Email Address">
-		                        <button type="submit" class="btn-white mb0">Keep Me Informed</button>
-		                        <iframe srcdoc="<!-- Begin MailChimp Signup Form --> <link href=&quot;//cdn-images.mailchimp.com/embedcode/classic-10_7.css&quot; rel=&quot;stylesheet&quot; type=&quot;text/css&quot;> <style type=&quot;text/css&quot;> 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; } 	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block. 	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */ </style> <div id=&quot;mc_embed_signup&quot;> <form action=&quot;https://plumtucker.us11.list-manage.com/subscribe/post?u=0eac5d6094e280050c272e68d&amp;amp;id=b1849d3cd9&quot; method=&quot;post&quot; id=&quot;mc-embedded-subscribe-form&quot; name=&quot;mc-embedded-subscribe-form&quot; class=&quot;validate&quot; target=&quot;_blank&quot; novalidate>     <div id=&quot;mc_embed_signup_scroll&quot;> 	<h2>Subscribe to our mailing list</h2> <div class=&quot;indicates-required&quot;><span class=&quot;asterisk&quot;>*</span> indicates required</div> <div class=&quot;mc-field-group&quot;> 	<label for=&quot;mce-EMAIL&quot;>Email Address  <span class=&quot;asterisk&quot;>*</span> </label> 	<input type=&quot;email&quot; value=&quot;&quot; name=&quot;EMAIL&quot; class=&quot;required email&quot; id=&quot;mce-EMAIL&quot;> </div> <div class=&quot;mc-field-group&quot;> 	<label for=&quot;mce-FNAME&quot;>First Name  <span class=&quot;asterisk&quot;>*</span> </label> 	<input type=&quot;text&quot; value=&quot;&quot; name=&quot;FNAME&quot; class=&quot;required&quot; id=&quot;mce-FNAME&quot;> </div> <div class=&quot;mc-field-group&quot;> 	<label for=&quot;mce-LNAME&quot;>Last Name </label> 	<input type=&quot;text&quot; value=&quot;&quot; name=&quot;LNAME&quot; class=&quot;&quot; id=&quot;mce-LNAME&quot;> </div> <div class=&quot;mc-field-group size1of2&quot;> 	<label for=&quot;mce-MMERGE3&quot;>Phone Number </label> 	<input type=&quot;number&quot; name=&quot;MMERGE3&quot; class=&quot;&quot; value=&quot;&quot; id=&quot;mce-MMERGE3&quot;> </div> 	<div id=&quot;mce-responses&quot; class=&quot;clear&quot;> 		<div class=&quot;response&quot; id=&quot;mce-error-response&quot; style=&quot;display:none&quot;></div> 		<div class=&quot;response&quot; id=&quot;mce-success-response&quot; style=&quot;display:none&quot;></div> 	</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->     <div style=&quot;position: absolute; left: -5000px;&quot; aria-hidden=&quot;true&quot;><input type=&quot;text&quot; name=&quot;b_0eac5d6094e280050c272e68d_b1849d3cd9&quot; tabindex=&quot;-1&quot; value=&quot;&quot;></div>     <div class=&quot;clear&quot;><input type=&quot;submit&quot; value=&quot;Subscribe&quot; name=&quot;subscribe&quot; id=&quot;mc-embedded-subscribe&quot; class=&quot;button&quot;></div>     </div> </form> </div> <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='number';}(jQuery));var $mcj = jQuery.noConflict(true);</script> <!--End mc_embed_signup-->" class="mail-list-form">
-		                        </iframe>
-		                    </form>
+							<div id="mc_embed_signup">
+							<form action="https://plumtucker.us11.list-manage.com/subscribe/post?u=0eac5d6094e280050c272e68d&amp;id=b1849d3cd9" method="post" name="mc-embedded-subscribe-form" 
+								   class="form-newsletter halves validate" id="mc-embedded-subscribe-form" target="_blank" novalidate
+							>
+								<div id="mc_embed_signup_scroll">
+								<div class="mc-field-group">
+									<input type="email" id="mce-EMAIL" value="" name="EMAIL" class="required email mb0 transparent validate-email validate-required signup-email-field" placeholder="Email Address">
+								</div>
+								<div id="mce-responses" class="clear">
+									<div class="response" id="mce-error-response" style="display:none"></div>
+									<div class="response" id="mce-success-response" style="display:none"></div>
+								</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+								<div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_0eac5d6094e280050c272e68d_b1849d3cd9" tabindex="-1" value=""></div>
+								<div class="clear"><input type="submit" class="btn-white" value="Subscribe" name="subscribe" id="mc-embedded-subscribe"></div>
+								</div>
+							</form>
+							</div>
+							<!-- <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='number';}(jQuery));var $mcj = jQuery.noConflict(true);</script> -->
+							<!--End mc_embed_signup-->
 		                </div>
 		            </div>
 		            
@@ -477,15 +538,16 @@
 				<div class="container">
 				
 					<div class="row fade-half">
-						<div class="col-sm-4 text-center-xs">
-							<span>© Copyright 2015 Medium Rare</span>
+						<div class="col-sm-4 text-center">
+							<span>Built with &hearts; by <a target="_blank" href="http://www.jacklyons.me">Jack Lyons</a></span>
 						</div>
 					
 						<div class="col-sm-4 text-center hidden-xs">
 							<ul class="list-inline social-list spread-children">
-								<li><a href="#"><i class="icon icon-sm ti-instagram"></i></a></li>
-								<li><a href="#"><i class="icon icon-sm ti-facebook"></i></a></li>
-								<li><a href="#"><i class="icon icon-sm ti-email"></i></a></li>
+								<li><a href="https://www.instagram.com/plumtuckercafe"><i class="icon icon-sm ti-instagram"></i></a></li>
+								<li><a href="https://www.facebook.com/plumtucker"><i class="icon icon-sm ti-facebook"></i></a></li>
+								<li><a href="tel:0733690610"><i class="icon icon-sm ti-mobile"></i></a></li>
+								<li><a href="mailto:info@plumtucker.com.au"><i class="icon icon-sm ti-email"></i></a></li>
 							</ul>
 						</div>
 					
