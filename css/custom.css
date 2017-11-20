@@ -1,4 +1,8 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
+/* Body */
+p {
+  font-size: 14px;
+}
 
 /* Header */
 .header-logo { width: 200px; }
@@ -12,7 +16,7 @@ footer { padding: 40px 0; }
 /* Utiltiies */
 .p-b-40 { padding-bottom: 40px; }
 .m-t-20 { margin-top: 20px; }
-
+.m-b-20 { margin-bottom: 20px; }
 /* Social Icons */
 #header-social i { font-size: 24px; margin: 0 10px; }
 #header-social i:hover { color: #282a38; transition: .3s ease; font-weight: bold; }
