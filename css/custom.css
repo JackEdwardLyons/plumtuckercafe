@@ -4,6 +4,7 @@
 .header-logo { width: 200px; }
 .reserve-table { font-size: 18px; }
 .image-slider .slides { display: flex; height: 100vh; bottom: 50px; } /* Bump up the logo and reserve button */
+.menu li a { font-size: 13px; }
 
 /* Footer */
 footer { padding: 40px 0; }
