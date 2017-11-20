@@ -24,6 +24,13 @@ footer .social-list { display: flex; justify-content: center; align-content: cen
 footer .social-list li i:hover { color: #FFF; }
 
 /* Media Queries */
+@media (max-width: 991px) {
+  #flex-menu {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
 @media (max-width: 767px) {
   .image-slider .slides { bottom: 0 }
   #header-social li { margin: 0 10px; }
