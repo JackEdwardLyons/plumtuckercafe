@@ -1,4 +1,5 @@
 /****** PLACE YOUR CUSTOM STYLES HERE ******/
+
 /* Body */
 p {
   font-size: 14px;
@@ -17,11 +18,25 @@ footer { padding: 40px 0; }
 .p-b-40 { padding-bottom: 40px; }
 .m-t-20 { margin-top: 20px; }
 .m-b-20 { margin-bottom: 20px; }
+
 /* Social Icons */
 #header-social i { font-size: 24px; margin: 0 10px; }
 #header-social i:hover { color: #282a38; transition: .3s ease; font-weight: bold; }
 footer .social-list { display: flex; justify-content: center; align-content: center; }
 footer .social-list li i:hover { color: #FFF; }
+
+/* Masonry */
+.masonry-grid { /* Masonry container */
+  column-count: 2;
+  column-gap: 1em;
+}
+
+.m-item { /* Masonry bricks or child elements */
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+}
 
 /* Media Queries */
 @media (max-width: 991px) {
